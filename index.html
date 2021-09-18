@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/d46f73e943.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="mobile-nav">
+        <li><a href="#" class="list">Categories</a></li>
+        <li><a href="#" class="list">Brands</a></li>
+        <li><a href="#" class="list">Pricing</a></li>
+        <li><a href="#" class="list">Get Started</a></li>
+      </nav>
+      <nav class="nav-bar navbar-fixed-top">
+        <a href="/" class="logo">Techmenia</a>
+        <ul class="nav-list">
+          <li><a href="#" class="hover">Categories</a></li>
+          <li><a href="#" class="hover">Brands</a></li>
+          <li><a href="#" class="hover">Pricing</a></li>
+          <li><a href="#" class="button">Get Started</a></li>
+        </ul>
+        <button class="hamburger">
+          <i class="fas fa-hamburger"></i>
+        </button>
+      </nav>
+      <div class="styled-break"></div>
+    </header>
+
+    <div class="hero">
+      <div class="hero-info">
+        <h1>
+          Buy <strong>Premium</strong> Quality Gadegts at
+          <strong>Reasonable</strong> Prices
+        </h1>
+        <p>
+          We provide various categories of gadegts and wearables within
+          afforadable prices. Get your tech accessories in our store at minimum
+          shiping cost at your doorstep.
+        </p>
+        <div class="search-bar">
+          <label for="search"></label>
+          <input
+            type="text"
+            class="search-bar__input"
+            name="search"
+            id="search"
+            placeholder="Search items..."
+            aria-label="search"
+          />
+          <buttton class="search-bar__submit" aria-label="submit search">
+            <i class="fas fa-search"></i>
+          </buttton>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img
+          src="src/images/astro-headphone.jpg"
+          alt="space music"
+          class="hero-image__space"
+        />
+      </div>
+    </div>
+
+    <section class="promo-sec">
+      <p class="promo-title">What We Offer</p>
+      <div class="promo-ctn">
+        <div class="card-one card">
+          <button class="card-icon">
+            <i class="fas fa-shipping-fast card-icon-one"></i>
+          </button>
+          <h2 class="card-title">Cash on Delivery</h2>
+          <p class="card-content">
+            Our shipping system is very fast and efficient. You can also pay
+            online or after the delivery
+          </p>
+        </div>
+        <div class="card-two card">
+          <button class="card-icon">
+            <i class="fas fa-registered card-icon-two"></i>
+          </button>
+          <h2 class="card-title">Premium Quality</h2>
+          <p class="card-content">
+            We ensure premium products and maintain that throughout the shipping
+            process
+          </p>
+        </div>
+        <div class="card-three card">
+          <button class="card-icon">
+            <i class="fas fa-money-check-alt card-icon-three"></i>
+          </button>
+          <h2 class="card-title">Reasonable Price</h2>
+          <p class="card-content">
+            We try to maintain our cost at minmum while keeping the production
+            quality at maximum
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wave">
+        <img src="src/images/wave-1.svg" alt="wave" class="wave__fixed" />
+      </div>
+    </footer>
+    <script src="src/app.js"></script>
+  </body>
+</html>
